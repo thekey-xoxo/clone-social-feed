@@ -6,10 +6,9 @@ import Login from './pages/Login';
 function App() {
   return(
     <>
-      <Route exact path='/' render={() => {<div>HOME</div>;}} />
+      <Route exact path='/' render={() => {}} />
       <Route path='login' component={Login} />
     </>
   );
 }
-
 export default App;
