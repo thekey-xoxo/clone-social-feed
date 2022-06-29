@@ -1,0 +1,36 @@
+@import './src/styles/common-variable';
+
+.box {
+  padding: 2rem;
+  margin: auto;
+  background: $color-lg-gy;
+  text-align: center;
+  max-width: 500px;
+  max-height: 500px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inputs {
+  margin-bottom: 2rem;
+  .input {
+    display: block;
+    padding: 1rem;
+    justify-content: center;
+    border-radius: $radi;
+    border: 1px solid $color-md-gy;
+    margin: auto;
+  }
+}
+
+.btn {
+  padding: 1rem;
+  min-width: 150px;
+  background: $color-em;
+  border-radius: $radi;
+  color: $color-wh;
+  font-weight: 700;
+  //display: block;
+  margin: 2rem auto 0;
+}

@@ -1,8 +1,14 @@
 import React from 'react';
-import PreAssignmentGuide from './pages/PreAssignmentGuide';
+import {BrowserRouter, Switch, Route} from 'react-router-dom';
+
+import Login from './pages/Login';
 
 function App() {
-  return <PreAssignmentGuide />;
+  return(
+    <>
+      <Route exact path='/' render={() => {}} />
+      <Route path='login' component={Login} />
+    </>
+  );
 }
-
 export default App;
